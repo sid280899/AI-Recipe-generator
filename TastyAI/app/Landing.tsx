@@ -25,7 +25,7 @@ export default function Landing() {
         >
           <View style={styles.ImageComponent}>
             {imageList.map((image, index) => (
-              <Image source={image} style={styles.image} />
+              <Image key={index} source={image} style={styles.image} />
             ))}
           </View>
         </Marquee>
@@ -39,7 +39,7 @@ export default function Landing() {
         >
           <View style={styles.ImageComponent}>
             {imageList.map((image, index) => (
-              <Image source={image} style={styles.image} />
+              <Image key={index} source={image} style={styles.image} />
             ))}
           </View>
         </Marquee>
@@ -53,7 +53,7 @@ export default function Landing() {
         >
           <View style={styles.ImageComponent}>
             {imageList.map((image, index) => (
-              <Image source={image} style={styles.image} />
+              <Image key={index} source={image} style={styles.image} />
             ))}
           </View>
         </Marquee>
@@ -67,7 +67,7 @@ export default function Landing() {
         >
           <View style={styles.ImageComponent}>
             {imageList.map((image, index) => (
-              <Image source={image} style={styles.image} />
+              <Image key={index} source={image} style={styles.image} />
             ))}
           </View>
         </Marquee>
